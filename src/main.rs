@@ -16,6 +16,7 @@ use email::{ Email, HTML };
 
 // dyn 关键字只用在特征对象的类型声明上，在创建时无需使用 dyn
 // vscode 列编辑，鼠标放到行首，alt + shift
+// 运行程序：cargo run -- --currencies BTC
 #[tokio::main]
 // async fn main() -> Result<(), Box<dyn Error>> {
 async fn main() -> Result<(), OneError> {
